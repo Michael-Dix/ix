@@ -7,7 +7,7 @@ title: Core UI 6.5.0 to Siemens iX v1
 ## Changed dependencies
 
 - Updated to `bootstrap@5.2.0`
-- Updated peerDependency of `@anuglar/core` to latest version
+- Updated peerDependency of `@angular/core` to latest version
 
 ## Removed dependencies
 
