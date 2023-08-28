@@ -8,9 +8,7 @@ SPDX-License-Identifier: MIT
 
 Siemens iX provides a holistic design system for building attractive and intuitive web applications.
 
-Contributions to the library and feedback are very welcome.
-This document explains our guidelines for both.
-These guidelines are designed to minimize friction for everyone involved.
+Contributions to the library and feedback are very welcome. This document explains our guidelines for both. These guidelines are designed to minimize friction for everyone involved.
 
 ## Feature requests and bug reporting
 
@@ -28,19 +26,13 @@ Bug reports need to include a clear description of the problem as well as additi
 
 If you are planning to contribute a larger change to iX it is advisable to open an issue for discussion first. This way you can make sure in advance that your changes will actually get accepted.
 
-In order to start working on an issue fork the `iX repositiory`.
-Once all changes are implemented commit them to the fork and create a merge request (MR).
-Please make sure to enable the option `Allow commits from members who can merge to the target branch` in your MR. This way the iX team will be able to rebase the MR if neccessary.
+In order to start working on an issue fork the `iX repository`. Once all changes are implemented commit them to the fork and create a merge request (MR). Please make sure to enable the option `Allow commits from members who can merge to the target branch` in your MR. This way the iX team will be able to rebase the MR if neccessary.
 
-Usually all changes have to be combined into one single commit for clarity. No unrelated changes must be part of that commit.
-If your MR should contain more than one commit it will get squash merged.
+Usually all changes have to be combined into one single commit for clarity. No unrelated changes must be part of that commit. If your MR should contain more than one commit it will get squash merged.
 
 ## Coding guidelines
 
-iX releases follow the concept of [Semantic versioning](https://semver.org/). Therefore it is vital that changes to the codebase don't violate these principles.
-The API of iX consists of components, TypeScript classes, CSS classes, CSS Custom properties and SCSS mixins.
-Please make sure that no accidental breaking changes are produced by your changes.
-For issues that are not yet tagged with a version number it is important that you communicate breaking changes in your merge request.
+iX releases follow the concept of [Semantic versioning](https://semver.org/). Therefore, it is vital that changes to the codebase don't violate these principles. The API of iX consists of components, TypeScript classes, CSS classes, CSS Custom properties and SCSS mixins. Please make sure that no accidental breaking changes are produced by your changes. For issues that are not yet tagged with a version number it is important that you communicate breaking changes in your merge request.
 
 In order to keep code quality high we ask for any contribution to adhere to any applicable guidelines listed below:
 
@@ -87,7 +79,7 @@ Must be one of the following:
 
 - **build**: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
 - **ci**: Changes to our CI configuration files and scripts (example scopes: Circle, BrowserStack, SauceLabs)
-- **docs**: Documentation only changes
+- **docs**: Only changes about documentation
 - **feat**: A new feature
 - **fix**: A bug fix
 - **perf**: A code change that improves performance
